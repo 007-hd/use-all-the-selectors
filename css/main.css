@@ -27,11 +27,11 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper [calss*="dnf"] strong {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.wrapper .dnf strong {
+.wrapper .dfn strong {
   color: #fff;
 }
 
