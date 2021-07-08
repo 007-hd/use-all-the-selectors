@@ -47,14 +47,17 @@ ol li:last-child {
   color: #2aa198;
 }
 
+/*Every odd*/
 .types li:nth-child(odd) {
-  color: #657ba3;
+  background-color: #657ba3;
 }
 
+/*Every even*/
 .types li:nth-child(even) {
-  color: #586e75;
+  background-color: #586e75;
 }
 
+/*Every third*/
 .types li:nth-child(a+3) {
-  color: #d04b16;
+  background-color: #d04b16;
 }
