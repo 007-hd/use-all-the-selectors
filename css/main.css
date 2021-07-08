@@ -3,6 +3,10 @@ html {
   background-color: #fdf6e3;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 header, footer {
   font-size: 1.5rem;
 }
@@ -15,7 +19,7 @@ nav ul {
   text-transform: uppercase;
 }
 
-.wrapper {
+[calss*="wrapper"] {
   background-color: #eee8d5;
 }
 
@@ -23,7 +27,7 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper .dnf {
+.wrapper [calss*="dnf"] strong {
   background-color: #b58900;
 }
 
@@ -47,17 +51,20 @@ ol li:last-child {
   color: #2aa198;
 }
 
-/*Every odd*/
+/* Every odd */
+
 .types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-/*Every even*/
+/* Every even */
+
 .types li:nth-child(even) {
   background-color: #586e75;
 }
 
-/*Every third*/
-.types li:nth-child(a+3) {
+/* Every third */
+
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
